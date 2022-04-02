@@ -1,0 +1,32 @@
+.form_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.writing-input {
+    width: 500px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: #fff;
+    background: hsl(202deg 100% 42%);
+    border: 1px solid gray;
+    cursor: pointer;
+
+}
+
+.submit-input {
+    padding: 12px 25px;
+    color: #fff;
+    border-radius: 5px;
+    background: hsl(202deg 100% 42%);
+    border: 1px solid gray;
+    cursor: pointer;
+
+}
+
+::placeholder {
+    color: #fff;
+  }
+  

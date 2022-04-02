@@ -1,0 +1,61 @@
+.country_body {
+    margin-top: 120px;
+}
+
+.country_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.country_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 5rem;
+    margin: 30px 0px;
+}
+
+.country_img,
+.country_info {
+    width: 50%;
+}
+
+.country_info h3 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.country_left h3 {
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.country_left h3 span {
+    color: #000;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 25px;
+    color: #fff;
+    background: hsl(208, 95%, 39%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+
+  .home_route{
+    text-decoration: none;
+    color: #fff;
+  }
+  
